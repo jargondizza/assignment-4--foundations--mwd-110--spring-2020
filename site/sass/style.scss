@@ -1,0 +1,14 @@
+@import 'variables';
+
+nav {
+  & ul li {
+    text-align: center;
+    width: 130px;
+    display: inline-block;
+  }
+
+  & ul li a {
+    text-decoration: none;
+    display: block;
+  }
+}
