@@ -1,15 +1,22 @@
+$primary-color: #fffef7;
+$secondary-color: #e6dabc;
+$font-color: #222;
+$font-heading: anton, sans-serif;
+$font-body: 'Barlow Condensed', sans-serif;
+$font-size--heading: 20px;
+
 body {
-  background-color: #fffef7;
-  color: #000;
+  background-color: $primary-color;
+  color: $font-color;
   margin: auto;
 }
 
 header {
-  background: #e6dabc;
-  color: inherit;
+  background: $secondary-color;
+  color: $font-color;
   line-height: 25px;
-  font-size: 20px;
-  font-family: Anton, sans-serif;
+  font-size: $font-size--heading;
+  font-family: $font-heading;
   text-align: center;
 }
 
@@ -21,15 +28,15 @@ nav {
   }
 
   & ul li a {
-    font-family: 'Barlow Condensed', sans-serif;
+    font-family: $font-body;
     text-decoration: none;
     display: block;
   }
 }
 
 a:hover {
-  background-color: #e6dabc;
-  color: #000;
+  background-color: $primary-color;
+  color: $font-color;
 }
 
 main {
@@ -37,11 +44,11 @@ main {
 }
 
 h3 {
-  font-family: Anton, sans-serif;
-  font-size: 20px;
+  font-family: $font-heading;
+  font-size: $font-size--heading;
 }
 
 p {
-  font-family: 'Barlow Condensed', sans-serif;
+  font-family: $font-body;
   font-size: 18px;
 }
