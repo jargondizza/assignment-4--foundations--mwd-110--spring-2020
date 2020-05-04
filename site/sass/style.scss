@@ -1,4 +1,17 @@
-@import 'variables';
+body {
+  background-color: #fffef7;
+  color: #000;
+  margin: 20px;
+}
+
+header {
+  background: #e6dabc;
+  color: inherit;
+  line-height: 25px;
+  font-size: 20px;
+  font-family: Anton, sans-serif;
+  text-align: center;
+}
 
 nav {
   & ul li {
@@ -8,7 +21,25 @@ nav {
   }
 
   & ul li a {
+    font-family: 'Barlow Condensed', sans-serif;
     text-decoration: none;
     display: block;
   }
+}
+
+a:hover {
+  background-color: #e6dabc;
+  color: #000;
+}
+
+main {
+  margin: 70px 300px;
+}
+
+h3 {
+  font-family: Anton, sans-serif;
+}
+
+p {
+  font-family: 'Barlow Condensed', sans-serif;
 }
