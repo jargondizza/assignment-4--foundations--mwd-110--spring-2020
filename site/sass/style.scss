@@ -1,9 +1,4 @@
-$primary-color: #fffef7;
-$secondary-color: #e6dabc;
-$font-color: #222;
-$font-heading: anton, sans-serif;
-$font-body: 'Barlow Condensed', sans-serif;
-$font-size--heading: 20px;
+@import 'variables';
 
 body {
   background-color: $primary-color;
