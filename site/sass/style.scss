@@ -52,3 +52,12 @@ p {
   font-family: $font-body;
   font-size: 18px;
 }
+
+img {
+  &.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  margin: 10px;
+}
