@@ -17,6 +17,10 @@ body {
 }
 
 header {
+  position: fixed;
+  margin: auto;
+  width: 1545px;
+  height: 135px;
   background: $secondary-color;
   color: $font-color;
   line-height: 25px;
