@@ -4,6 +4,16 @@ body {
   background-color: $primary-color;
   color: $font-color;
   margin: auto;
+  line-height: normal;
+}
+
+#home-header {
+  position: fixed;
+  margin: auto;
+  width: 1545px;
+  height: 500px;
+  background: $secondary-color;
+  color: $font-color;
 }
 
 header {
